@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: ;
+	color: ;
+	font-family: 'Helvetica', sans-serif;
+	font-size: ;
+	font-weight: ;
+	text-redering: optimizeLegibility;
+}
+
+p {
+	font-family: Freight;
+	color: #515e65;
+	font-size: 1.1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+ @font-face { font-family: Freight; src: url('../fonts/freight-sans-book.otf'); } 
+
+.container {
+	max-width: 1080px;
+	width: 90%;
+	height: 100vh;
+	margin: auto;
+}
+
+/* Navigation */
+
+.menu {
+	margin-top: 30px;
+}
+
+.menu img {
+	float: left;
+	width: 70px;
+}
+
+.nav {
+	padding-top: 17px;
+}
+
+.nav-item {
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+	color: #989899;
+	font-family: Freight;
+	transition: all .5s;
+}
+
+.nav-item:hover {
+	font-weight: 1000;
+	color: #FF5E55;
+}
+
+/* Project */
+
+.project-title {
+	font-size: 3em;
+}
+
+.short-description {
+	margin-top: 40px;
+	border-bottom: solid 3px black;
+	padding-bottom: 40px;
+	font-family: Freight;
+	font-size: 1.5em;
+	color: #262c30;
+}
+
+.back-navigation {
+	margin-bottom: 30px;
+}
+
+.back-navigation span{
+	margin-left: 10px;
+	border-bottom: solid 1px;
+	padding-bottom: 3px;
+	width: 80px;
+}
+
+.back-navigation:hover {
+	color: #FF5E55;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
